@@ -9,3 +9,6 @@ window.Dwarf =
   Collections: {}
   Routers: {}
   Views: {}
+  initialize: ->
+  	new Dwarf.Routers.MainRouter()
+  	Backbone.history.start()
