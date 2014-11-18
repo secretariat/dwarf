@@ -4,6 +4,7 @@ gem 'rails', '3.2.11'
 gem 'mysql2'
 gem 'therubyracer'
 gem "rails-backbone"
+gem "hirb"
 
 group :assets do
   gem "twitter-bootstrap-rails"

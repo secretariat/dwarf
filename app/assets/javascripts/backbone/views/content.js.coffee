@@ -7,8 +7,13 @@ class Dwarf.Views.Content extends Backbone.View
 	render: ->
 		$(@el).html(@template)
 		@renderEmptyView()
+		@renderTasksView()
 		@
 
 	renderEmptyView: ->
 		v = new Dwarf.Views.Empty()
 		@$('#main-area').html(v.render().el)
+
+	renderTasksView: ->
+		v = new Dwarf.Views.Tasks()
+		@$('#sidebar-area').html(v.render().el)
