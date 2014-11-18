@@ -15,5 +15,5 @@ class Dwarf.Views.Content extends Backbone.View
 		@$('#main-area').html(v.render().el)
 
 	renderTasksView: ->
-		v = new Dwarf.Views.Tasks()
+		v = new Dwarf.Views.Tasks({collection: new Dwarf.Collections.Tasks})
 		@$('#sidebar-area').html(v.render().el)

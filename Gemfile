@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'mysql2'
 gem 'therubyracer'
-gem "rails-backbone"
+gem "rails-backbone", :git => "https://github.com/codebrew/backbone-rails"
 gem "hirb"
 
 group :assets do
