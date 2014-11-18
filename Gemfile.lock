@@ -40,6 +40,10 @@ GEM
     ejs (1.0.0)
     erubis (2.7.0)
     execjs (2.2.2)
+    handlebars_assets (0.12.3)
+      execjs (>= 1.2.9)
+      sprockets (>= 2.0.3)
+      tilt
     hike (1.2.3)
     i18n (0.6.11)
     journey (1.0.4)
@@ -104,6 +108,11 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    twitter-bootstrap-rails (2.2.8)
+      actionpack (>= 3.1)
+      execjs
+      rails (>= 3.1)
+      railties (>= 3.1)
     tzinfo (0.3.42)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
@@ -114,10 +123,12 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  handlebars_assets
   jquery-rails
   mysql2
   rails (= 3.2.11)
   rails-backbone
   sass-rails (~> 3.2.3)
   therubyracer
+  twitter-bootstrap-rails
   uglifier (>= 1.0.3)

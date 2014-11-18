@@ -11,7 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
+//= require twitter/bootstrap
+//= require handlebars.runtime
 //= require underscore
 //= require backbone
 //= require backbone_rails_sync
